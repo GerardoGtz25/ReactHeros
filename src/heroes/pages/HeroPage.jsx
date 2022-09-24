@@ -17,8 +17,8 @@ export const HeroPage = () => {
   }
 
   return (
-    <div className='row mt-5'>
-      <div className='col-4'>
+    <div className='row mt-5 animate__animated animate__fadeInLeft'>
+      <div className='col-4 animate__animated animate__fadeInLeft'>
         <img
           src={`/assets/${id}.jpg`}
           alt={hero.superhero}
